@@ -1,4 +1,4 @@
-# google_sheets_to_redshift
+# Google sheets to redshift
 In this repo, we move data from google sheets to AWS redshift
 
 
