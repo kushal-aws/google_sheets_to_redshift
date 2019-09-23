@@ -75,7 +75,7 @@ def download_csv_and_move_to_s3():
 ​
     logger.info(u"Uploaded to S3")
     print ('file moved to s3 via memory using BytesIO')
-    fh.close()  # close the file handle to release memory
+    fh.close()  # close the file handle to release memory as the file was downloaded in memory
 ​
 def get_query_files(sql_file_name):
 ​
